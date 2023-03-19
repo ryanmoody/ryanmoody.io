@@ -3,19 +3,17 @@ import { Link } from "gatsby";
 
 const Header = () => {
   return (
-    <div>
-      <div>
-        <span>Ryan Moody</span>
-      </div>
+    <div className="bg-neutral-100 flex flex-row justify-between items-center p-6 border-b-2">
+      <span className="font-bold text-2xl uppercase">Ryan Moody</span>
       <nav>
-        <ul>
-          <li>
+        <ul className="flex flex-row gap-10">
+          <li className="font-bold hover:text-neutral-700">
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className="font-bold hover:text-neutral-700">
             <Link to="/about">About</Link>
           </li>
-          <li>
+          <li className="font-bold hover:text-neutral-700">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
