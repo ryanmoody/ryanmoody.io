@@ -6,16 +6,18 @@ const Hero = () => {
   return (
     <Container>
       <section className="flex flex-col md:flex-row gap-20 items-center py-20 md:py-48">
-        <StaticImage
-          alt="Profile"
-          height={300}
-          imgClassName="rounded-full max-h-full"
-          layout="fixed"
-          loading="eager"
-          placeholder="none"
-          src="../images/profile.jpeg"
-          width={300}
-        />
+        <div className="border-8 border-white rounded-full shadow-xl">
+          <StaticImage
+            alt="Profile"
+            height={300}
+            imgClassName="rounded-full"
+            layout="fixed"
+            loading="eager"
+            placeholder="none"
+            src="../images/profile.jpeg"
+            width={300}
+          />
+        </div>
         <header className="flex flex-col justify-center md:items-start gap-4 md:gap-6 text-center md:text-left">
           <span className="text-lg md:text-xl">I'm a</span>
           <h1 className="font-bold text-4xl md:text-6xl">Frontend Engineer</h1>

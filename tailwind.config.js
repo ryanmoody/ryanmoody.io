@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/pages/**/*.{js,jsx}", "./src/components/**/*.{js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        brand: {
+          primary: "#fff06c",
+        },
+      },
+    },
     fontFamily: {
       primary: ["Inter"],
     },
