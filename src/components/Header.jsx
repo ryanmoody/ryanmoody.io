@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 const Header = () => {
   return (
-    <div className="bg-neutral-100 flex flex-row justify-between items-center p-6 border-b-2">
+    <div className="bg-neutral-100 flex flex-row justify-between items-center p-6">
       <Link className="font-bold text-lg md:text-2xl uppercase" to="/">
         Ryan Moody
       </Link>
