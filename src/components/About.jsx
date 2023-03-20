@@ -20,7 +20,7 @@ const About = () => {
           </section>
           <img
             src={CodeEditorImage}
-            alt="Code Editor Image"
+            alt="Code Editor"
             height={300}
             width={300}
           />

@@ -8,7 +8,7 @@ const Hero = () => {
       <section className="flex flex-row gap-10 items-center">
         <StaticImage
           src="../images/profile.jpeg"
-          alt="Profile Photo"
+          alt="Profile"
           width={300}
           height={300}
           className="rounded-full max-h-full"
