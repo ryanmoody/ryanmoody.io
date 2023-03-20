@@ -18,7 +18,12 @@ const About = () => {
               practices.
             </p>
           </section>
-          <img src={CodeEditorImage} height={300} width={300} />
+          <img
+            src={CodeEditorImage}
+            alt="Code Editor Image"
+            height={300}
+            width={300}
+          />
         </div>
       </Container>
     </div>
