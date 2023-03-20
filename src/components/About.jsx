@@ -6,10 +6,10 @@ const About = () => {
   return (
     <div className="bg-yellow-200">
       <Container>
-        <div className="flex flex-col-reverse md:flex-row gap-20 items-center justify-between py-20">
-          <section className="flex flex-col justify-center h-96">
+        <div className="flex flex-col-reverse md:flex-row gap-20 items-center justify-between py-10">
+          <section className="flex flex-col justify-center">
             <h2 className="font-bold text-2xl md:text-3xl mb-4">About</h2>
-            <p className="text-lg md:text-xl leading-loose">
+            <p className="text-xl leading-loose">
               I’m a frontend engineer with over six years of experience building
               web applications. Having primarily worked on product teams, I’ve
               developed a passion for user experience and empathetic problem
