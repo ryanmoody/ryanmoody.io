@@ -9,13 +9,13 @@ const Header = () => {
       </Link>
       <nav className="text-sm md:text-md">
         <ul className="flex flex-row gap-5 md:gap-10">
-          <li className="font-bold hover:text-neutral-700">
+          <li className="font-bold hover:text-black">
             <Link to="/">Home</Link>
           </li>
-          <li className="font-bold hover:text-neutral-700">
+          <li className="font-bold hover:text-black">
             <Link to="/about">About</Link>
           </li>
-          <li className="font-bold hover:text-neutral-700">
+          <li className="font-bold hover:text-black">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

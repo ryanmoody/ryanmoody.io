@@ -5,7 +5,7 @@ import Container from "./Container";
 const Hero = () => {
   return (
     <Container>
-      <section className="flex flex-col md:flex-row gap-20 items-center py-20 md:py-48 text-neutral-800">
+      <section className="flex flex-col md:flex-row gap-20 items-center py-20 md:py-48">
         <StaticImage
           alt="Profile"
           height={300}
