@@ -8,8 +8,8 @@ const About = () => {
       <Container>
         <div className="flex flex-col-reverse md:flex-row gap-20 items-center justify-between py-10">
           <section className="flex flex-col justify-center">
-            <h2 className="font-bold text-2xl md:text-3xl mb-4">About</h2>
-            <p className="text-xl leading-loose">
+            <h2 className="font-bold text-2xl mb-4">About</h2>
+            <p className="text-lg leading-loose">
               I’m a frontend engineer with over six years of experience building
               web applications. Having primarily worked on product teams, I’ve
               developed a passion for user experience and empathetic problem

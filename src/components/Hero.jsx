@@ -16,11 +16,9 @@ const Hero = () => {
           src="../images/profile.jpeg"
           width={300}
         />
-        <header className="flex flex-col justify-center md:items-start gap-6">
+        <header className="flex flex-col justify-center md:items-start gap-4 md:gap-6 text-center md:text-left">
           <span className="text-lg md:text-xl">I'm a</span>
-          <h1 className="font-bold text-4xl md:text-6xl md:text-left">
-            Frontend Engineer
-          </h1>
+          <h1 className="font-bold text-4xl md:text-6xl">Frontend Engineer</h1>
           <span className="text-lg md:text-xl">
             using code to solve problems for humans.
           </span>
