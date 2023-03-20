@@ -1,10 +1,13 @@
 import * as React from "react";
+import About from "../components/About";
+import Hero from "../components/Hero";
 import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
     <Layout>
-      <h1>UI Engineer</h1>
+      <Hero />
+      <About />
     </Layout>
   );
 };

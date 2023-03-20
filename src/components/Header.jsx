@@ -4,7 +4,9 @@ import { Link } from "gatsby";
 const Header = () => {
   return (
     <div className="bg-neutral-100 flex flex-row justify-between items-center p-6 border-b-2">
-      <span className="font-bold text-2xl uppercase">Ryan Moody</span>
+      <Link className="font-bold text-2xl uppercase" to="/">
+        Ryan Moody
+      </Link>
       <nav>
         <ul className="flex flex-row gap-10">
           <li className="font-bold hover:text-neutral-700">
