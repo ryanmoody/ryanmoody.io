@@ -12,6 +12,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Ryan Moody | UI Engineer</title>;
+export const Head = () => <title>Ryan Moody | Frontend Engineer</title>;
 
 export default IndexPage;

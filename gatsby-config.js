@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Ryan Moody | UI Engineer`,
+    title: `Ryan Moody | Frontend Engineer`,
     siteUrl: `https://ryanmoody.io`,
   },
   plugins: [
