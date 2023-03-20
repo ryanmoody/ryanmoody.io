@@ -17,11 +17,11 @@ const Hero = () => {
           width={300}
         />
         <header className="flex flex-col justify-center md:items-start gap-6">
-          <span className="text-xl">I'm a</span>
-          <h1 className="font-bold text-5xl md:text-6xl md:text-left">
+          <span className="text-lg md:text-xl">I'm a</span>
+          <h1 className="font-bold text-4xl md:text-6xl md:text-left">
             Frontend Engineer
           </h1>
-          <span className="text-xl">
+          <span className="text-lg md:text-xl">
             using code to solve problems for humans.
           </span>
         </header>
