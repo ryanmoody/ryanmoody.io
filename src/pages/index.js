@@ -1,12 +1,15 @@
 import * as React from "react";
+import { ParallaxProvider } from "react-scroll-parallax";
 import Hero from "../components/Hero";
 import Page from "../components/Page";
 
 const IndexPage = () => {
   return (
-    <Page>
-      <Hero />
-    </Page>
+    <ParallaxProvider>
+      <Page>
+        <Hero />
+      </Page>
+    </ParallaxProvider>
   );
 };
 
