@@ -5,7 +5,7 @@ import Logo from "../images/logo.svg";
 
 const MobileMenu = ({ handleClose }) => {
   return (
-    <div className="flex flex-col gap-16 fixed inset-0 h-screen bg-neutral-300 backdrop-blur-sm bg-opacity-90 z-10 p-6">
+    <div className="flex flex-col gap-16 fixed inset-0 h-screen bg-neutral-100 backdrop-blur-sm bg-opacity-90 z-10 p-6">
       <div className="flex justify-between items-center w-full">
         <button
           onClick={() => {
