@@ -1,5 +1,5 @@
-import { Link, navigate } from "gatsby";
 import * as React from "react";
+import { Link, navigate } from "gatsby";
 import { GoX } from "react-icons/go";
 import Logo from "../images/logo.svg";
 
@@ -32,6 +32,12 @@ const MobileMenu = ({ handleClose }) => {
           </li>
           <li>
             <Link to="/">Resume</Link>
+          </li>
+          <li>
+            <a href="https://github.com/ryanmoody">GitHub</a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/ryanmoodyengineer">LinkedIn</a>
           </li>
         </ul>
       </nav>
