@@ -1,11 +1,11 @@
 import * as React from "react";
-import Layout from "../components/Layout";
+import Page from "../components/Page";
 
 const AboutPage = () => {
   return (
-    <Layout>
-      <h1>About</h1>
-    </Layout>
+    <Page>
+      <h1 className="text-3xl font-bold uppercase">About</h1>
+    </Page>
   );
 };
 

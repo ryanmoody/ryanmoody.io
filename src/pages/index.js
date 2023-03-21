@@ -1,14 +1,12 @@
 import * as React from "react";
-import About from "../components/About";
 import Hero from "../components/Hero";
-import Layout from "../components/Layout";
+import Page from "../components/Page";
 
 const IndexPage = () => {
   return (
-    <Layout>
+    <Page>
       <Hero />
-      <About />
-    </Layout>
+    </Page>
   );
 };
 

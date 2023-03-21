@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <Container>
       <section className="flex flex-col md:flex-row gap-20 items-center py-20 md:py-48">
-        <div className="border-8 border-white rounded-full shadow-xl">
+        <div className="rounded-full shadow-2xl">
           <StaticImage
             alt="Profile"
             height={300}
@@ -19,10 +19,11 @@ const Hero = () => {
           />
         </div>
         <header className="flex flex-col justify-center md:items-start gap-4 md:gap-6 text-center md:text-left">
-          <span className="text-lg md:text-xl">I'm a</span>
-          <h1 className="font-bold text-4xl md:text-6xl">Frontend Engineer</h1>
-          <span className="text-lg md:text-xl">
-            using code to solve problems for humans.
+          <h1 className="text-xl md:text-3xl font-thin uppercase">
+            Ryan Moody
+          </h1>
+          <span className="text-3xl md:text-6xl font-bold uppercase">
+            Frontend Engineer
           </span>
         </header>
       </section>
